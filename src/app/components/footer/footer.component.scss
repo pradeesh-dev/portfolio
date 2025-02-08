@@ -1,0 +1,48 @@
+footer {
+    background-color: #24292e; // Dark background
+    color: #fff;
+    text-align: center;
+    padding: 2rem; // Responsive spacing
+
+    p {
+        font-size: 1.4rem; // Scales based on root font-size
+        margin-bottom: 1rem;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem; // Spacing between icons
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 3rem; // Icon size
+            height: 3rem;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+
+            img {
+                width: 100%;
+                height: 100%;
+                //   filter: brightness(0) invert(1); // White icons
+            }
+
+            &:hover {
+                transform: scale(1.2); // Slight zoom on hover
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+// Mobile Optimization
+@media (max-width: 768px) {
+    footer {
+        padding: 1.5rem; // Reduce padding on smaller screens
+
+        .social-links {
+            gap: 1rem; // Less spacing between icons
+        }
+    }
+}

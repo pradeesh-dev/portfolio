@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+
+
+    #content-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        background-color: #24292e;
+        padding: 3rem 2rem 3rem 0;
+
+        #name-span {
+            font-size: 6rem;
+            font-weight: 800;
+            color: rgb(6, 161, 145);
+        }
+
+        #role-span {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}

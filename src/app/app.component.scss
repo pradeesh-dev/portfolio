@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; // Ensures full page height
+    font-family: "Josefin Sans", serif;
+    margin: 0;
+}
+
+main {
+    flex: 1; // Pushes the footer down
+    display: flex;
+    flex-direction: column;
+}
