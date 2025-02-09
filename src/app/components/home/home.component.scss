@@ -1,9 +1,23 @@
-h1{
-    font-size: 4rem;
-    color:  #0099ff;;
+h1 {
+    font-size: 2.5rem;
+    color: #06a191;
+    cursor: pointer;
+    font-weight: bolder;
+    scroll-behavior: smooth;
+    //text-shadow: .2rem .2rem grey ;
 }
 
-p{
+strong {
+    color: #ffcc00;
+}
+
+.container {
+    padding: 2rem;
+}
+
+p {
     font-size: 2rem;
- //   space
+    text-indent: 3rem;
+    text-align: justify;
+    line-height: 3rem;
 }

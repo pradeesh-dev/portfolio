@@ -1,0 +1,18 @@
+<div class="let-me-cook">
+
+    <h1>{{ !showSecret ? "Let Me Cook" : "I'm Batman" }}</h1>
+
+    <p *ngIf="!showSecret">Development is happening. Slowly, but surely. Probably.</p>
+
+    <p [class.hidden]="!showSecret" class="secret">
+        I work in the dark, hidden by the night.
+        Unfortunately, debugging without light takes a little longer.
+    </p>
+
+    <p class="footer" *ngIf="showSecret">Now that you know, keep it to yourself.</p>
+
+    <button (click)="revealSecret()">
+        {{ showSecret ? "You saw nothing..." : "Want to know a secret?" }}
+    </button>
+
+</div>
