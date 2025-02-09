@@ -38,7 +38,7 @@
             "production": {
               "outputPath": "docs",
               "index": "src/index.html",
-              "baseHref": "/portfolio/",
+              "baseHref": "/portfolio",
               "budgets": [
                 {
                   "type": "initial",
