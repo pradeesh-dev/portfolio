@@ -38,7 +38,7 @@
             "production": {
               "outputPath": "docs",
               "index": "src/index.html",
-              "baseHref": "",
+              "baseHref": "/portfolio/",
               "budgets": [
                 {
                   "type": "initial",
@@ -56,7 +56,8 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "baseHref": "/portfolio/"
             }
           },
           "defaultConfiguration": "production"

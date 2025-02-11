@@ -9,7 +9,7 @@
     overflow: hidden;
 
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-        url('/assets/icons/programmer1.jpg') center/cover no-repeat;
+        url('/portfolio/assets/icons/programmer1.jpg') center/cover no-repeat;
 
     background-attachment: fixed;
     background-position: center;
@@ -33,7 +33,7 @@
     min-height: 23rem;
     border-radius: 10px;
     //overflow: hidden;
-    background: url('/assets/icons/me.png') center/cover no-repeat;
+    background: url('/portfolio/assets/icons/me.png') center/cover no-repeat;
     //box-shadow: .1rem .1rem .5rem 0 rgb(66, 65, 65);
 
 }
@@ -64,7 +64,7 @@
     min-height: 40rem;
     border-radius: 10px;
     overflow: hidden;
-    background: url('/assets/icons/programmer.jpg') center/cover no-repeat;
+    background: url('/portfolio/assets/icons/programmer.jpg') center/cover no-repeat;
     // box-shadow: .1rem .1rem .5rem 0 rgb(66, 65, 65);
 
 }
