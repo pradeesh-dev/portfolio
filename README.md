@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+Demo link: https://pradeesh-dev.github.io/portfolio/
 # portfolio
 My portfolio client side web app
 =======
